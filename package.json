@@ -1,0 +1,38 @@
+{
+  "name": "kilukru-dev-node-app-docker-kubernetes",
+  "version": "1.0.0",
+  "description": "Ce dépôt est le résultat de l'article : \"Déploiement d'une application Node.js complète dans Kubernetes\". Vous pouvez le consulter sur [kilukru.dev](https://www.kilukru.dev/?p=379)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfreddagenais/kilukru-dev-node-app-docker-kubernetes.git"
+  },
+  "keywords": [],
+  "author": "Alfred Dagenais <jesuis@alfreddagenais.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfreddagenais/kilukru-dev-node-app-docker-kubernetes/issues"
+  },
+  "homepage": "https://github.com/alfreddagenais/kilukru-dev-node-app-docker-kubernetes#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.28.0",
+    "prettier": "^2.5.1"
+  }
+}
