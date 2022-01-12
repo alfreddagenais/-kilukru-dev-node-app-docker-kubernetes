@@ -12,10 +12,10 @@ spec:
   template:
     metadata:
       labels:
-        app: node-app 
+        app: node-app
     spec:
       containers:
-      - name: node-app
-        image: alfreddagenais/kilukru-dev-node-app-docker-kubernetes #path to your docker image
-        ports:
-        - containerPort: 8080
+        - name: node-app
+          image: alfreddagenais/kilukru-dev-node-app-docker-kubernetes #path to your docker image
+          ports:
+            - containerPort: 8080

@@ -2,6 +2,7 @@
   "root": true,
   "env": {
     "browser": true,
+    "node": true,
     "es2021": true
   },
   "extends": ["eslint:recommended", "prettier", "plugin:react/recommended"],
@@ -12,6 +13,7 @@
     "ecmaVersion": 13,
     "sourceType": "module"
   },
+  "ignorePatterns": ["**/docs/assets/*"],
   "plugins": ["react"],
   "rules": {
     "no-console": "error"
